@@ -1,0 +1,313 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D9BC58;
+    text-align: center;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    border-radius: 20px; /* Rounded corners */
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    border-radius: 20px; /* Rounded corners */
+}
+
+.carcontainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    border-radius: 20px; /* Rounded corners */
+    background-color: black;
+    color: white;
+}
+
+/* Navigation Styles */
+.nav {
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.nav .elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav .elements .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav .elements .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav .elements .nav-links a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav .elements .nav-links a:hover {
+    background-color: #555;
+}
+
+.nav .elements .avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nav .elements .avatar-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Car Listing Styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fbf9f9;
+    border-radius: 20px;
+    color: #333;
+    padding: 20px 0;
+}
+
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.car-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: relative; /* Added position relative */
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+}
+
+.car-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+    border-radius: 10px 10px 0 0;
+}
+
+.car-details {
+    padding: 15px;
+}
+
+.car-details h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.car-details p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.book-now-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.book-now-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Review section styles */
+.review-section {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+}
+
+.review-section textarea {
+    width: calc(100% - 20px);
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.review-section button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.review-section button:hover {
+    background-color: #0056b3;
+}
+
+/* Search Bar Styles */
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card input[type="search"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+.card input[type="search"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+/* Styles for the search section */
+section {
+    margin-bottom: 20px;
+}
+
+input[type="search"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+input[type="search"]::placeholder {
+    color: #999;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.about-us {
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Review section styles */
+.review-section {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 999;
+}
+
+.review-section textarea {
+    width: calc(100% - 20px);
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.review-section button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.review-section button:hover {
+    background-color: #0056b3;
+}

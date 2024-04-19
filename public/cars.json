@@ -1,0 +1,502 @@
+[
+    {
+        "Name": "Tesla Model 3",
+        "Type": "Economy",
+        "DailyPrice": 350,
+        "Number of seats": 5,
+        "Id": 1,
+        "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Exterior-Desktop-NA.jpg",
+        "WeeklyPrice": 1750,
+        "MonthlyHaul": 5260
+    },
+    {
+        "Name": "Toyota Corolla",
+        "Type": "Economy",
+        "DailyPrice": 250,
+        "Number of seats": 5,
+        "Id": 6,
+        "image": "https://th.bing.com/th/id/OIP.LIGfTaO5QUZlyHzDfwlM_wAAAA?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1250,
+        "MonthlyHaul": 3750
+    },
+    {
+        "Name": "Honda Civic",
+        "Type": "Economy",
+        "DailyPrice": 200,
+        "Number of seats": 5,
+        "Id": 7,
+        "image": "https://th.bing.com/th/id/R.e6593beb82860194c57da221f4123fe6?rik=2y%2bEKoNnhLdZZg&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1000,
+        "MonthlyHaul": 3000
+    },
+    {
+        "Name": "Ford Mustang",
+        "Type": "Sports Car",
+        "DailyPrice": 300,
+        "Number of seats": 2,
+        "Id": 8,
+        "image": "https://www.carscoops.com/wp-content/uploads/2019/04/7b78edbb-ford-mustang-new-york-auto-show-.jpg",
+        "WeeklyPrice": 1500,
+        "MonthlyHaul": 4500
+    },
+    {
+        "Name": "Chevrolet Silverado",
+        "Type": "Pickup Truck",
+        "DailyPrice": 300,
+        "Number of seats": 5,
+        "Id": 9,
+        "image": "https://th.bing.com/th/id/R.daef8e117bd02e102a72ef50cf41f22c?rik=bqz3oBkMNRZ1xw&riu=http%3a%2f%2fwww.miamilakesautomall.com%2fchevy-blog%2fwp-content%2fuploads%2fsites%2f86%2f2015%2f10%2f2016-Chevrolet-Silverado.jpg&ehk=2KXtYlgb1g%2bALV0jEdSOc5X7x8Qs6kNyKKw7CgNCVik%3d&risl=&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1500,
+        "MonthlyHaul": 4500
+    },
+    {
+        "Name": "BMW 3 Series",
+        "Type": "Luxury",
+        "DailyPrice": 300,
+        "Number of seats": 5,
+        "Id": 10,
+        "image": "https://th.bing.com/th/id/OIP.BpRsxzxsW-x_JlcDOnNFdwHaDv?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1500,
+        "MonthlyHaul": 4500
+    },
+    {
+        "Name": "Mercedes-Benz C-Class",
+        "Type": "Luxury",
+        "DailyPrice": 320,
+        "Number of seats": 5,
+        "Id": 11,
+        "image": "https://th.bing.com/th/id/R.ae79f572fe3f0ea2ad17f7b97005f2a2?rik=a2mZaycAYBo3pA&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1600,
+        "MonthlyHaul": 4800
+    },
+    {
+        "Name": "Audi A4",
+        "Type": "Luxury",
+        "DailyPrice": 200,
+        "Number of seats": 5,
+        "Id": 12,
+        "image": "https://th.bing.com/th/id/R.30e047eeef079982307c2445ee562cb5?rik=qIk02DK9iAidiQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1849615.jpg&ehk=csm0qOavlyq3jptv3gzz1ELRhwpgVSOI35OayShyPZM%3d&risl=&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1000,
+        "MonthlyHaul": 3000
+    },
+    {
+        "Name": "Volkswagen Golf",
+        "Type": "Compact Car",
+        "DailyPrice": 280,
+        "Number of seats": 5,
+        "Id": 13,
+        "image": "https://th.bing.com/th/id/OIP.HgVBdlSOWYZAHXxLeGY1FwHaE9?w=1280&h=858&rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1400,
+        "MonthlyHaul": 4200
+    },
+    {
+        "Name": "Nissan Altima",
+        "Type": "Economy",
+        "DailyPrice": 150,
+        "Number of seats": 5,
+        "Id": 15,
+        "image": "https://th.bing.com/th/id/R.888bcfdf834da206eee91712e68eb6ae?rik=MzWyAmPlLlpHvA&pid=ImgRaw&r=0",
+        "WeeklyPrice": 750,
+        "MonthlyHaul": 2250
+    },
+    {
+        "Name": "Hyundai Elantra",
+        "Type": "Economy",
+        "DailyPrice": 200,
+        "Number of seats": 5,
+        "Id": 16,
+        "image": "https://cdn.motor1.com/images/mgl/kNeGM/s1/hyundai-elantra.jpg",
+        "WeeklyPrice": 1000,
+        "MonthlyHaul": 3000
+    },
+    {
+        "Name": "Subaru Outback",
+        "Type": "Crossover",
+        "DailyPrice": 240,
+        "Number of seats": 5,
+        "Id": 17,
+        "image": "https://th.bing.com/th/id/OIP.8sfTgVbHARI4w_iZsqTsPwHaEL?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1200,
+        "MonthlyHaul": 3600
+    },
+    {
+        "Name": "Jeep Wrangler",
+        "Type": "SUV (Sport Utility Vehicle)",
+        "DailyPrice": 300,
+        "Number of seats": 5,
+        "Id": 18,
+        "image": "https://www.igotajeep.com/media/jeep-wrangler-392-jl-concept.780/full?d=1613139841",
+        "WeeklyPrice": 1500,
+        "MonthlyHaul": 4500
+    },
+    {
+        "Name": "Kia Soul",
+        "Type": "Compact Car",
+        "DailyPrice": 250,
+        "Number of seats": 5,
+        "Id": 19,
+        "image": "https://th.bing.com/th/id/OIP.5H31NF0f-lhIrpg-LH3aewHaE8?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1250,
+        "MonthlyHaul": 3750
+    },
+    {
+        "Name": "Lexus RX",
+        "Type": "Luxury",
+        "DailyPrice": 500,
+        "Number of seats": 5,
+        "Id": 20,
+        "image": "https://th.bing.com/th/id/R.ac04e434b5c787e1f7ae61749d74b53e?rik=CRi37pHqXMtBZQ&pid=ImgRaw&r=0",
+        "WeeklyPrice": 2500,
+        "MonthlyHaul": 7500
+    },
+    {
+        "Name": "Ford Focus",
+        "Type": "Economy",
+        "DailyPrice": 250,
+        "Number of seats": 5,
+        "Id": 21,
+        "image": "https://th.bing.com/th/id/OIP.cxdGLQnZM8fEHiqbIuEyywAAAA?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1250,
+        "MonthlyHaul": 3750
+    },
+    {
+        "Name": "Chevrolet Cruze",
+        "Type": "Economy",
+        "DailyPrice": 235,
+        "Number of seats": 5,
+        "Id": 22,
+        "image": "https://th.bing.com/th/id/R.492715b87421c9b3662de61f880bca5e?rik=uMkgQ9fW83SZrQ&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1175,
+        "MonthlyHaul": 3530
+    },
+    {
+        "Name": "Nissan Rogue",
+        "Type": "SUV (Sport Utility Vehicle)",
+        "DailyPrice": 256,
+        "Number of seats": 5,
+        "Id": 23,
+        "image": "https://th.bing.com/th/id/OIP.XzEIAImorCyZfj8YThYi7gHaE8?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1280,
+        "MonthlyHaul": 3840
+    },
+    {
+        "Name": "Hyundai Sonata",
+        "Type": "Economy",
+        "DailyPrice": 275,
+        "Number of seats": 5,
+        "Id": 24,
+        "image": "https://th.bing.com/th/id/OIP.nD-da8sOA0p-b1tIr7ze8QHaE7?w=289&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "WeeklyPrice": 1375,
+        "MonthlyHaul": 4130
+    },
+    {
+        "Name": "Subaru Forester",
+        "Type": "SUV (Sport Utility Vehicle)",
+        "DailyPrice": 231,
+        "Number of seats": 5,
+        "Id": 25,
+        "image": "https://th.bing.com/th/id/OIP.HAgxLdkEy8Y3eqnv9y0ZKQAAAA?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1155,
+        "MonthlyHaul": 3470
+    },
+    {
+        "Name": "Jeep Grand Cherokee",
+        "Type": "SUV (Sport Utility Vehicle)",
+        "DailyPrice": 267,
+        "Number of seats": 5,
+        "Id": 26,
+        "image": "https://th.bing.com/th/id/OIP.9SDrB6ViWE92RezH-Q-BpwAAAA?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1335,
+        "MonthlyHaul": 4010
+    },
+    {
+        "Name": "Kia Sportage",
+        "Type": "SUV (Sport Utility Vehicle)",
+        "DailyPrice": 340,
+        "Number of seats": 5,
+        "Id": 27,
+        "image": "https://th.bing.com/th/id/R.10e479adfb57a809fb3258f8d272fbf0?rik=tMxzlfybkda%2big&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1700,
+        "MonthlyHaul": 5100
+    },
+    {
+        "Name": "Volvo XC60",
+        "Type": "SUV (Sport Utility Vehicle)",
+        "DailyPrice": 355,
+        "Number of seats": 5,
+        "Id": 28,
+        "image": "https://th.bing.com/th/id/R.f70c4d5304ed86b52e3686cab40a1807?rik=aocasbayyxgGsA&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1775,
+        "MonthlyHaul": 5330
+    },
+    {
+        "Name": "Porsche Cayenne",
+        "Type": "SUV (Sport Utility Vehicle)",
+        "DailyPrice": 450,
+        "Number of seats": 5,
+        "Id": 29,
+        "image": "https://th.bing.com/th/id/OIP.sqPYWLuweyfjNsBG9NmwtAHaFC?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 2250,
+        "MonthlyHaul": 6750
+    },
+    {
+        "Name": "Cadillac Escalade",
+        "Type": "SUV",
+        "DailyPrice": 350,
+        "Number of seats": 5,
+        "Id": 30,
+        "image": "https://th.bing.com/th/id/R.3d0ee0617560d8d6cc6e1ddb59c8f244?rik=I5TgjAA5HJKYcg&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1750,
+        "MonthlyHaul": 5250
+    },
+    {
+        "Name": "Toyota Camry",
+        "Type": "General",
+        "DailyPrice": 210,
+        "Number of seats": 5,
+        "Id": 31,
+        "image": "https://static.cargurus.com/images/site/2019/07/09/10/08/2020_toyota_camry-pic-1188166728336696531-1600x1200.png",
+        "WeeklyPrice": 1050,
+        "MonthlyHaul": 2990
+    },
+    {
+        "Name": "Honda Accord",
+        "Type": "General",
+        "DailyPrice": 220,
+        "Number of seats": 5,
+        "Id": 32,
+        "image": "https://th.bing.com/th/id/R.4cd376142d06b262383a22e50700ef4f?rik=89y0bPnA6K3ZHA&riu=http%3a%2f%2fst.motortrend.com%2fuploads%2fsites%2f5%2f2013%2f05%2f2013-Honda-Accord-front-left-view12.jpg&ehk=0%2fzFNSqget9tLdMct6CFeh4EI0wc0FHWWvjjHbZmiU0%3d&risl=&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1100,
+        "MonthlyHaul": 3140
+    },
+    {
+        "Name": "Ford F-150",
+        "Type": "General",
+        "DailyPrice": 230,
+        "Number of seats": 3,
+        "Id": 33,
+        "image": "https://th.bing.com/th/id/OIP.D_YoJc9_sUZvr40iVA3JyAAAAA?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1150,
+        "MonthlyHaul": 3290
+    },
+    {
+        "Name": "Chevrolet Equinox",
+        "Type": "General",
+        "DailyPrice": 240,
+        "Number of seats": 5,
+        "Id": 34,
+        "image": "https://th.bing.com/th/id/OIP.sf8_PRQZL4WtXjyE61h2iwHaE4?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1200,
+        "MonthlyHaul": 3440
+    },
+    {
+        "Name": "BMW 5 Series",
+        "Type": "Luxury",
+        "DailyPrice": 250,
+        "Number of seats": 5,
+        "Id": 35,
+        "image": "https://th.bing.com/th/id/R.6fbe6448d23d32af4978c9b59100a63a?rik=NY8gmlHbv1%2bukQ&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1250,
+        "MonthlyHaul": 3590
+    },
+    {
+        "Name": "Mercedes-Benz E-Class",
+        "Type": "Luxury",
+        "DailyPrice": 260,
+        "Number of seats": 5,
+        "Id": 36,
+        "image": "https://th.bing.com/th/id/OIP.Ama_WuP9ydFXH2IqjNpGHQHaEo?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1300,
+        "MonthlyHaul": 3740
+    },
+    {
+        "Name": "Audi Q5",
+        "Type": "Luxury",
+        "DailyPrice": 270,
+        "Number of seats": 5,
+        "Id": 37,
+        "image": "https://th.bing.com/th/id/OIP.tZ0pdRhTetxz9SvdaEGbXwHaFj?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1350,
+        "MonthlyHaul": 3890
+    },
+    {
+        "Name": "Volkswagen Jetta",
+        "Type": "Economy",
+        "DailyPrice": 280,
+        "Number of seats": 5,
+        "Id": 38,
+        "image": "https://th.bing.com/th/id/R.3a8813d1705bd570cb725c054e2f1d62?rik=143Yi02AmyyZmQ&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1400,
+        "MonthlyHaul": 4040
+    },
+    {
+        "Name": "Nissan Sentra",
+        "Type": "Economy",
+        "DailyPrice": 290,
+        "Number of seats": 5,
+        "Id": 39,
+        "image": "https://th.bing.com/th/id/R.6b125b7c7bfbe4264768caa93a05ecb3?rik=gfwsOFpVBKGM%2fQ&riu=http%3a%2f%2fcdn.carbuzz.com%2fgallery-images%2f1600%2f698000%2f700%2f698761.jpg&ehk=9%2fhE02RU8QA5UY%2bsmkb3DNfSxOn6mCk%2blpkGZnVnlU4%3d&risl=&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1450,
+        "MonthlyHaul": 4190
+    },
+    {
+        "Name": "Hyundai Tucson",
+        "Type": "General",
+        "DailyPrice": 300,
+        "Number of seats": 5,
+        "Id": 40,
+        "image": "https://th.bing.com/th/id/OIP.dP7viH8eDWfES-Eax6AUKgHaE9?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1500,
+        "MonthlyHaul": 4340
+    },
+    {
+        "Name": "Subaru Impreza",
+        "Type": "General",
+        "DailyPrice": 310,
+        "Number of seats": 5,
+        "Id": 41,
+        "image": "https://th.bing.com/th/id/R.c4dea80f8bda935f24dc124a2b82fabb?rik=XOQDmfGb3PF2%2fA&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1550,
+        "MonthlyHaul": 4490
+    },
+    {
+        "Name": "Jeep Cherokee",
+        "Type": "General",
+        "DailyPrice": 320,
+        "Number of seats": 5,
+        "Id": 67,
+        "image": "https://th.bing.com/th/id/R.d99070311228c44eb5074f714ee167e5?rik=KciZ2jat7O4RDQ&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1600,
+        "MonthlyHaul": 4640
+    },
+    {
+        "Name": "Kia Optima",
+        "Type": "General",
+        "DailyPrice": 330,
+        "Number of seats": 5,
+        "Id": 100,
+        "image": "https://th.bing.com/th/id/R.15de9ac91c43be1548d7259a0cc85b66?rik=iwelGTTqVfxSeg&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1650,
+        "MonthlyHaul": 4790
+    },
+    {
+        "Name": "Lexus ES",
+        "Type": "Luxury",
+        "DailyPrice": 340,
+        "Number of seats": 5,
+        "Id": 101,
+        "image": "https://th.bing.com/th/id/OIP.qeWH7gnPqA1ubOmlE02_hQHaE6?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1700,
+        "MonthlyHaul": 4940
+    },
+    {
+        "Name": "Ford Escape",
+        "Type": "General",
+        "DailyPrice": 350,
+        "Number of seats": 5,
+        "Id": 102,
+        "image": "https://th.bing.com/th/id/OIP.Puw27h1zluCnpTXRkK0TcQAAAA?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1750,
+        "MonthlyHaul": 5090
+    },
+    {
+        "Name": "Chevrolet Malibu",
+        "Type": "General",
+        "DailyPrice": 360,
+        "Number of seats": 5,
+        "Id": 103,
+        "image": "https://th.bing.com/th/id/OIP.G0QAE6meMnfQTU0CZSR7dgHaFj?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1800,
+        "MonthlyHaul": 5240
+    },
+    {
+        "Name": "Nissan Murano",
+        "Type": "General",
+        "DailyPrice": 370,
+        "Number of seats": 5,
+        "Id": 104,
+        "image": "https://th.bing.com/th/id/R.f156f88f24bfab7aea1de99f6b4ab31a?rik=Bt44LDr75emfLA&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1850,
+        "MonthlyHaul": 5390
+    },
+    {
+        "Name": "Hyundai Santa Fe",
+        "Type": "General",
+        "DailyPrice": 380,
+        "Number of seats": 5,
+        "Id": 105,
+        "image": "https://th.bing.com/th/id/R.a6e679e5baa450e7a4943d232d22f6ae?rik=ryWudpMnBk2v0A&pid=ImgRaw&r=0",
+        "WeeklyPrice": 1900,
+        "MonthlyHaul": 5540
+    },
+    {
+        "Name": "Subaru Crosstrek",
+        "Type": "General",
+        "DailyPrice": 390,
+        "Number of seats": 5,
+        "Id": 106,
+        "image": "https://th.bing.com/th/id/OIP.ukVnMU7spw8YVxjqImf5QwAAAA?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 1950,
+        "MonthlyHaul": 5690
+    },
+    {
+        "Name": "Jeep Renegade",
+        "Type": "General",
+        "DailyPrice": 400,
+        "Number of seats": 5,
+        "Id": 107,
+        "image": "https://th.bing.com/th/id/R.a7299c452fa19f02e7865d0fe64eacf7?rik=dIwwJ8fIQr8BSA&pid=ImgRaw&r=0",
+        "WeeklyPrice": 2000,
+        "MonthlyHaul": 5840
+    },
+    {
+        "Name": "Kia Sorento",
+        "Type": "General",
+        "DailyPrice": 410,
+        "Number of seats": 5,
+        "Id": 108,
+        "image": "https://th.bing.com/th/id/OIP.IqmhDkp0oNuX3z0M4OaG_wHaE6?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 2050,
+        "MonthlyHaul": 5990
+    },
+    {
+        "Name": "Volvo XC90",
+        "Type": "Luxury",
+        "DailyPrice": 420,
+        "Number of seats": 5,
+        "Id": 109,
+        "image": "https://th.bing.com/th/id/R.9f00350688edb4a3e967b0ff926dda5e?rik=H4pVZg8vD67u8A&pid=ImgRaw&r=0",
+        "WeeklyPrice": 2100,
+        "MonthlyHaul": 6140
+    },
+    {
+        "Name": "Porsche 911",
+        "Type": "Luxury",
+        "DailyPrice": 430,
+        "Number of seats": 2,
+        "Id": 110,
+        "image": "https://th.bing.com/th/id/R.775c63966b3f06c653b1ae084bd32a15?rik=Ixdboz%2fPaK945w&riu=http%3a%2f%2fwww.hdcarwallpapers.com%2fwalls%2fporsche_911_r_geneva_auto_2016-wide.jpg&ehk=HhniguuupZvdZZpqDWfki9naGVgMXmRkxjSGRjLx%2fvY%3d&risl=&pid=ImgRaw&r=0",
+        "WeeklyPrice": 2150,
+        "MonthlyHaul": 6290
+    },
+    {
+        "Name": "Cadillac XT5",
+        "Type": "Luxury",
+        "DailyPrice": 440,
+        "Number of seats": 5,
+        "Id": 111,
+        "image": "https://th.bing.com/th/id/OIP.A8zDb17Cz8BVavXGY6-5ZgAAAA?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 2200,
+        "MonthlyHaul": 6440
+    },
+    {
+        "Name": "Dodge Charger",
+        "Type": "Luxury",
+        "DailyPrice": 450,
+        "Number of seats": 5,
+        "Id": 112,
+        "image": "https://th.bing.com/th/id/OIP.TjdBFNhGW3ObsisTF8LEPAHaFj?rs=1&pid=ImgDetMain",
+        "WeeklyPrice": 2250,
+        "MonthlyHaul": 6390
+    }    
+]

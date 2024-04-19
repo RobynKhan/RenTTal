@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showcase</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="elements">
+                <div class="logo">RenTTal</div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#news">Car Listing</a>
+                    <a href="#contact">Contact Us</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#travelling-tips">Travelling Tips</a>
+                    <div class="avatar-img">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                             alt="Avatar">
+                    </div>
+                    <button class="btn waves-effect waves-light" id="loginBtn">Login</button>
+                    <button class="btn waves-effect waves-light" id="logoutBtn" style="display: none;">Logout</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <h2>Welcome to the leading supplier of rental cars in Trinidad</h2>
+        <p>Let's get you started!</p>
+    </div>
+    
+    <div class="carcontainer">
+        <h1>Pick from our wide variety of cars</h1>
+        <section>
+            <input type="search" id="searchKey" placeholder="Search by Name">
+            <button onclick="search()">Search</button>
+        </section>
+        <div class="car-grid" id="carGrid"></div>
+    </div>
+    <!-- Review section -->
+<div class="review-section">
+    <textarea id="reviewTextArea" placeholder="Write your review here"></textarea>
+    <button onclick="submitReview()">Submit Review</button>
+</div>
+    <footer>
+        <section id="about" class="about-us">
+            <div class="container">
+                <h2>Connect</h2>
+                <p>Email us: RenTTalforit@gmail.com</p>
+                <p>Call our Toll Free Hotline: 1(868) 123-4567</p>
+                <p>Head Office: #21 Venture Street San Fernando</p>
+            </div>
+        </section>
+        <div class="container">
+            <p>&copy; 2024 Modern Website. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Your HTML content -->
+    <script src="data.js" defer></script>
+    <script src="main.js" defer></script>
+</body>
+</html>
