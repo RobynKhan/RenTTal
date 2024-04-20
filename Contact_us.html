@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - RentTal</title>
+</head>
+<style>
+    /* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://media.istockphoto.com/id/1057929832/photo/people-crossing-the-street-in-manhattan-new-york-city.jpg?s=1024x1024&w=is&k=20&c=evv1lsF4YxUO8Coepi3o6GENn59WnZp_8J9qtdaUPwc=');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    padding: 20px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Navigation Styles */
+.nav {
+    background-color: black;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav .container .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav .container .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav .container .nav-links a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav .container .nav-links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav .container .avatar-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.nav .container .avatar-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.nav-links {
+    float: right;
+}
+
+.logo {
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+/* Contact Section Styles */
+.contact-us {
+    padding: 30px;
+    background-color: #D9BC58;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.contact-us h2 {
+    margin-bottom: 30px;
+    color: black;
+}
+
+.contact-us form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-us form label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+.contact-us form input,
+.contact-us form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.contact-us form input:focus,
+.contact-us form textarea:focus {
+    outline: none;
+    border-color: black;
+}
+
+.contact-us form textarea {
+    height: 100px;
+}
+
+.contact-us form button {
+    background-color: black;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-us form button:hover {
+    background-color: #333;
+}
+
+.login-button {
+    text-align: center;
+}
+
+.btn-login {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    padding: auto;
+    background-color: black;
+}
+
+/* Footer Styles */
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+</style>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">RenTTal</div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#news">Car Listing</a>
+                    <a href="#about">SignIn/Login</a>
+                    <a href="#contact">Contact Us</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#travelling-tips">Travelling Tips</a>
+                    <div class="avatar-img">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Avatar">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <div class="container">
+                <form>
+                    <label for="name">Name:*</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:*</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="login-button">
+                    <p>Already have an account?</p>
+                    <a href="#" class="btn-login">Login</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2>Connect</h2>
+            <p>Email us: RenTTalforit@gmail.com</p>
+            <p>Call our Toll Free Hotline: 1(868) 123-4567 </p>
+            <p>Head Office: #21 Venture Street San Fernando </p>
+            <p>&copy; 2024 RentTal. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
