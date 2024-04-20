@@ -1,15 +1,8 @@
-const options = {
-    method: 'GET',
-    headers: {
-        'xc-auth': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvYnluQG1heWFyby5jb20iLCJkaXNwbGF5X25hbWUiOiJSb2J5biBLaGFuIiwiYXZhdGFyIjpudWxsLCJ1c2VyX25hbWUiOm51bGwsImlkIjoidXM2Y2xvZHI3dHNpeGtpOSIsInJvbGVzIjoib3JnLWxldmVsLXZpZXdlciIsInRva2VuX3ZlcnNpb24iOiJlMDRhZmI3OWI1OGVmMDE3OGUxNmMzMTM5Njg3NWYxNDllY2FkYWJlMjAwZGJjZTkzNDQ4ZDY2M2IxNzEyNGZjMjA2NmJmZTFhMmIxZjNlNSIsImlhdCI6MTcxMzU0MDEwMiwiZXhwIjoxNzEzNTc2MTAyfQ.cleZD1-dfxhnNNLym1757JBup-UZkwmQxWLtuV8twH4'
-    }
-};
-
 async function fetchData() {
     try {
-        const response = await fetch('https://app.nocodb.com/api/v2/tables/mdqvtex3bchxrn9/records?offset=0&limit=50&where=&viewId=vwd7ug8vk1s1433o', options);
+        const response = await fetch('cars.json');
         const data = await response.json();
-        displayCarShowcase(data.list);
+        displayCarShowcase(data); // Change to pass the entire data object
     } catch (error) {
         console.error('Error fetching data:', error);
         // Handle the error in a user-friendly way
@@ -61,10 +54,8 @@ function displayCarShowcase(carData) {
         bookNowBtn.classList.add('book-now-btn');
         bookNowBtn.addEventListener('click', () => {
             if (isLoggedIn()) {
-                // Proceed with booking action
                 alert('Booking action can proceed!');
             } else {
-                // Prompt user to log in
                 alert('Please log in to book this car.');
             }
         });
@@ -78,8 +69,16 @@ function displayCarShowcase(carData) {
         });
         carDetails.appendChild(reviewBtn);
 
-        carCard.appendChild(carDetails);
+        const reviewSection = document.createElement('div');
+        reviewSection.classList.add('review-section');
+        reviewSection.style.display = 'none'; // Hide review section by default
+        reviewSection.innerHTML = `
+            <textarea placeholder="Write your review here"></textarea>
+            <button onclick="submitReview('${car.Name}')">Submit Review</button>
+        `;
+        carDetails.appendChild(reviewSection);
 
+        carCard.appendChild(carDetails);
         carGrid.appendChild(carCard);
     });
 }
@@ -93,5 +92,11 @@ function toggleReviewSection(carCard) {
     }
 }
 
+
+// Dummy submitReview function
+function submitReview(carName) {
+    // Replace with your actual review submission logic
+    console.log('Submitting review for', carName);
+}
 // Fetch data on page load
 fetchData();
